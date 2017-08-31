@@ -1,0 +1,29 @@
+Mikey Spurr
+
+1: The steps that one must take to configure Git and Bitbucket are these: 
+	1: create repository in Bitbucket.
+	2: clone repository from Bitbucket into terminal to create a folder.
+
+2: Description of inputs, outputs and behaviors of the six git commands:
+	1: Git init- initializes existing git repository.
+	2: Git status- tell us the status of the files in repository. If they have been committed or not, if changes have been made to them.
+	3: Git add- this will add all/ or a specific file to the current directory. I use this to add code to my current directory.
+	4: Git commit- this will record the changes made to the repository and give you the ability to type a message exlaining what has been committed with the use of " git commit -m "" "     I use this to record my changes and add a message to know which changes were made.
+	5: Git push- this will move all of the files that have been committed toa remote location. I use this to turn in my assignments and make sure that the files were properly committed.
+	6: Git pull- this will get/fetch files from another repository or local branch. I use this to update my share repository and make sure I have my assignments.
+
+3: Commented versions of Hooray!.java and Weeee.java
+
+4: A: The steps that I took to compile and run these two programs were:
+	1: compile- javac *.java (this compiles all java files in the curent repository) or javac Hooray!.java and javac Weeee.java (which will only compile these two files.)
+B: Program output
+	1: Hooray! output- continuously prints Hooray! in the terminal while Hooray! is true.
+	2: Weeee output- Weeee! calls itself and prints a line and keeps on repeating until there is no more space
+
+C: Explanation for why these programs create the outputs they do:
+	1: Hooray!- it creates this output because Hooray! will always be Hooray! which means that it will always be true, and as long as it is true it will continue to print.
+	2: Weeee- it creates this output because it begins at the main method and calls weeee(); and then prints it out, repeats itself until there is no more space to do so.
+
+D: Similarities and differences:
+	The similarities between these two programs is that they continuously call and print a certain line (Hooray! and Weeee!)
+	The differences between these two programs is that since Hooray! is a while loop it will continue printing as long as the condition is true. In the Weeee program, instead of having a condition be true there is no condition and the program just keeps on calling weeee! until it is no longer able to do so (runs out of space).
