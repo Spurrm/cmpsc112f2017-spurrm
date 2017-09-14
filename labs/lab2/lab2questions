@@ -1,0 +1,8 @@
+Mikey Spurr
+Lab 2
+
+1: You would set a variable called "vowels" = 0. Then you would declare what a vowel is. Next you would at a count method to count how many vowels are in the string that was inputted.
+
+2: You would create an array, and then index what will go into the array. 
+
+3: Java can take an array of integers and determine if they are distinct because the numbers will keep on ascending one by one.
